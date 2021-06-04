@@ -10,5 +10,5 @@ data:
       token: $NATS_AUTH_TOKEN
     client:
       service:
-        type: NodePort
+        type: LoadBalancer
     extraEnvVarsSecret: nats-env-vars-secret
