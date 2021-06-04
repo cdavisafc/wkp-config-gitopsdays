@@ -101,7 +101,7 @@ const wkpUIComponent = {
 		"gitDeployKey": gitopsSecrets.sealedGitDeployKey["wkp-ui"],
 		"imagePullSecret": gitopsSecrets.sealedImagePullSecrets.dockerio["wkp-ui"],
 		"ALBIngress": {
-			"enabled": eksConfig.uiALBIngress === true
+			"enabled": true
 		}
 	}
 };
