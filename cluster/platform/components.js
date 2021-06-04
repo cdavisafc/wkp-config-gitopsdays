@@ -52,7 +52,7 @@ const wkpGitopsRepoBroker = {
 		"agentTemplate": {
 			// nats or tls
 			"natsScheme": "nats",
-			"natsURL": "a974b5edb962f4bc58c1063ae6703498-790725587.us-west-2.elb.amazonaws.com:30300",
+			"natsURL": "a974b5edb962f4bc58c1063ae6703498-790725587.us-west-2.elb.amazonaws.com:4222",
 		},
 		dbConfig,
 	},
