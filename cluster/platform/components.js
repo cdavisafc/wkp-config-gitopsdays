@@ -52,7 +52,7 @@ const wkpGitopsRepoBroker = {
 		"agentTemplate": {
 			// nats or tls
 			"natsScheme": "nats",
-			"natsURL": "nats-client.wkp-gitops-repo-broker:4222",
+			"natsURL": "a974b5edb962f4bc58c1063ae6703498-790725587.us-west-2.elb.amazonaws.com:30300",
 		},
 		dbConfig,
 	},
@@ -198,4 +198,3 @@ if (track === 'eks') {
 }
 
 export default components;
-
