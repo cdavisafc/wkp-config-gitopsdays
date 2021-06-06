@@ -129,7 +129,7 @@ eksConfig:
   # If you specify an eksctl config file below, make sure
   # to enable IAM roles for ALB in that file.
   # Must be a boolean (without quotes): true or false.
-  uiALBIngress: false
+  uiALBIngress: true
 
   # Loads configuration from an eksctl config file.
   # A sample eksctl config can be found in eksctl-config.yaml.
